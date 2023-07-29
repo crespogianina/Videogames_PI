@@ -1,0 +1,113 @@
+.mainConteinerDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  text-shadow: -3px 4px 17px rgba(0, 0, 0, 1);
+}
+
+a {
+  color: white;
+}
+.volverHome {
+  margin-top: 5px;
+
+  align-items: flex-start;
+  border-radius: 5px;
+  padding: 5px;
+  color: black;
+  background-color: rgba(168, 67, 67, 0.724);
+  cursor: pointer;
+}
+.extras {
+  border-radius: 5px;
+  padding: 5px;
+  color: black;
+  background-color: rgba(168, 67, 67, 0.724);
+  cursor: pointer;
+  align-self: flex-end;
+  color: white;
+  margin: 2px;
+  cursor: pointer;
+}
+.buttons {
+  align-content: space-between;
+}
+.buttonConteiner {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.eliminado {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 90px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgba(81, 26, 26, 0.293);
+  padding: 20px;
+
+  font-size: 20px;
+}
+.detail {
+  font-size: 15px;
+  margin-top: 20px;
+  justify-self: center;
+  align-self: center;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: #626161de;
+  padding: 20px;
+}
+
+.textConteiner {
+  font-size: 15px;
+}
+
+.descripDetail {
+  margin-top: 200px;
+  width: 600px;
+  margin: 5px;
+  padding: 5px;
+  align-items: flex-start;
+}
+.idGame {
+  font-size: 15px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 5px;
+}
+
+.imagDetail {
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.listas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imgLoading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  opacity: 0.5;
+  border-radius: 20px;
+}
+
+.imgEditar {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}

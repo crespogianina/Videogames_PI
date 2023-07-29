@@ -1,0 +1,12 @@
+export const GET_VIDEOGAMES = "GET_VIDEOGAMES";
+export const GET_GAME = "GET_GAME";
+export const CLEAN_DETAIL = "CLEAN_DETAIL";
+export const ERROR = "ERROR";
+export const GET_VIDEOGAME_NAME = "GET_VIDEOGAME_NAME";
+export const GET_GENRES = "GET_GENRES";
+export const ORDER_GENRES = "ORDER_GENRES";
+export const FILTER_GAMES = "FILTER_GAMES";
+export const ORDER_GAMES = "ORDER_GAMES";
+export const ORDER_RATING = "ORDER_RATING";
+export const CLEAN_FILTERS = "CLEAN_FILTERS";
+export const GET_PLATAFORMS = "GET_PLATAFORMS";

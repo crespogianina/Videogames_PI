@@ -1,0 +1,86 @@
+.mainConteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.created {
+  background-color: rgba(250, 235, 215, 0.234);
+  padding: 8px;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.formConteiner {
+  background-color: #a4a4a449;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border-radius: 10px;
+  padding: 20px 200px 50px 50px;
+}
+.titleForm {
+  text-shadow: -3px 4px 17px rgba(0, 0, 0, 1);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 45px;
+}
+
+.contenedores {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 8px;
+}
+
+.labelDatos {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  text-shadow: 5px 1px 15px #1f1e1e;
+  text-shadow: -3px 4px 17px rgba(0, 0, 0, 1);
+}
+
+.labelDatosBoxes {
+  text-shadow: -3px 4px 17px rgba(0, 0, 0, 1);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+.inputDatos {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgba(255, 245, 245, 0.729);
+  border: 1px thick black;
+  border-radius: 5px;
+  padding: 6px;
+  width: 300px;
+}
+
+.checkBoxes {
+  cursor: pointer;
+}
+
+.buttonSubmit {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+  color: black;
+  align-self: center;
+}
+
+.mensajesError {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(212, 15, 15);
+  text-shadow: -3px 4px 17px rgba(0, 0, 0, 1);
+}
+
+.buttonVolver {
+  background-color: #4b4b4b;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+  align-self: flex-start;
+  margin-top: -30px;
+  margin-left: 40px;
+}

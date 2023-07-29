@@ -1,0 +1,45 @@
+.bodyArcade {
+  height: 100vh;
+  background: #fff
+    url(https://rare-gallery.com/livewalls/imgpreview/95641-Retro-Arcade-Room.jpg)
+    center/cover local;
+}
+.tittle {
+  margin-top: 30px;
+  margin-bottom: 0;
+  margin-left: 18%;
+}
+.text {
+  margin-top: 20px;
+  margin-left: 14%;
+}
+
+.landigText {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  color: #fff;
+  text-shadow: -3px 4px 17px rgba(0, 0, 0, 1);
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.buttonHome {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  align-self: flex-start;
+  margin-top: 80px;
+  margin-left: 410%;
+  color: black;
+  background-color: #f2ff00;
+  padding: 20px;
+  border-radius: 30px;
+  font-size: 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+.buttonHome:hover {
+  background-color: #f588cd;
+  cursor: pointer;
+  box-shadow: 0px 0px 29px 7px #000;
+}
