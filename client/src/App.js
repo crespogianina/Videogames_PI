@@ -20,7 +20,3 @@ function App() {
 
 export default App;
 
-// admjasolfndkjasjnfkjasfas
-// dfasfklasfas
-// dasdasdsa
-// dasdasdsa
